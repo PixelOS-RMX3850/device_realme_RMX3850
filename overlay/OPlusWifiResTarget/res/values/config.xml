@@ -5,5 +5,5 @@
 -->
 <resources>
     <!-- Do not translate. Default access point SSID used for tethering -->
-    <string name="wifi_tether_configure_ssid_default" translatable="false">realme GT Neo6</string>
+    <string name="wifi_tether_configure_ssid_default" translatable="false">realme GT Neo6 SE</string>
 </resources>

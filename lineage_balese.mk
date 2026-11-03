@@ -8,24 +8,24 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from bale device
-$(call inherit-product, device/realme/bale/device.mk)
+# Inherit from balese device
+$(call inherit-product, device/realme/balese/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_bale
-PRODUCT_DEVICE := bale
+PRODUCT_NAME := lineage_balese
+PRODUCT_DEVICE := balese
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX3852
+PRODUCT_MODEL := RMX3850
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi-user 16 BP2A.250605.015 1779795857846 release-keys" \
-    BuildFingerprint=realme/RMX3852/RE5C46L1:16/UKQ1.231108.001/U.3fbb756-1bb43e3-1bb8859:user/release-keys \
-    DeviceName=RE5C46L1 \
-    DeviceProduct=RMX3852 \
-    SystemDevice=RE5C46L1 \
-    SystemName=RMX3852
+    BuildDesc="qssi-user 16 BP2A.250605.015 1786011176610 release-keys" \
+    BuildFingerprint=realme/RMX3850/RE5C39L1:16/UKQ1.231108.001/U.a1b9a2_1b05aa7_1ac47b6:user/release-keys \
+    DeviceName=RE5C39L1 \
+    DeviceProduct=RMX3850 \
+    SystemDevice=RE5C39L1 \
+    SystemName=RMX3850

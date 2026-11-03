@@ -60,4 +60,4 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/oneplus/sm8650-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/realme/bale/bale-vendor.mk)
+$(call inherit-product, vendor/realme/balese/balese-vendor.mk)

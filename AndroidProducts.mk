@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_bale.mk
+    $(LOCAL_DIR)/lineage_balese.mk
