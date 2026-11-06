@@ -10,10 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from balese device
 $(call inherit-product, device/realme/balese/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_balese
+PRODUCT_NAME := custom_balese
 PRODUCT_DEVICE := balese
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme

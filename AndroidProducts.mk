@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_balese.mk
+    $(LOCAL_DIR)/custom_balese.mk
