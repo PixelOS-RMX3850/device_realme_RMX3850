@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from realme GT Neo6 (RMX3852_16.0.5.1010(CN01)).
+## are from realme GT Neo6 SE (RMX3850_16.0.5.1200(CN01)).
 
 # Current blobs with deps disabled:
 # com.oplus.node.mvgsat, com.oplus.node.sstabphoto, com.qti.node.dewarp, com.qti.chi.override, libcamximageformatutils, libchifeature2 depends on multiple versions of the same aidl_interface: android.hardware.graphics.allocator-V1-ndk, android.hardware.graphics.allocator-V2-ndk-source
@@ -112,15 +112,9 @@ odm/etc/lvacfs_params/2mic/audiozoom_9.txt
 
 # Camera
 odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service
-odm/etc/camera/aigc/aigc_models/QCOM_BisNetV2_SR_Q_823_30.bin
-odm/etc/camera/aigc/aigc_models/Qcom_quantized_model_new_8650.bin
-odm/etc/camera/aigc/aigc_models/blurDet_sm8635.bin
-odm/etc/camera/aigc/aigc_models/faceSR_front_qcom.bin
-odm/etc/camera/aigc/aigc_models/faceSR_rearmain_qcom.bin
-odm/etc/camera/aigc/aigc_models/faceSeg_sm8635.bin
-odm/etc/camera/aigc/aigc_models/gfpgan1024.bin
-odm/etc/camera/aigc/aigc_models/gfpgan1024_sm8635.bin
-odm/etc/camera/aigc/aigc_models/gfpgan512.bin
+odm/etc/camera/aigc/aigc_models/blurDet_sm7675.bin
+odm/etc/camera/aigc/aigc_models/faceSeg_sm7675.bin
+odm/etc/camera/aigc/aigc_models/gfpgan1024_sm7675.bin
 odm/etc/camera/aigc/aigc_models/noise300.bin
 odm/etc/camera/aigc/libs/libODNN.so
 odm/etc/camera/aigc/libs/libOPAlgoCamAIGCFace.so
@@ -272,10 +266,7 @@ odm/etc/camera/fb_model/eyesMask.png
 odm/etc/camera/fb_model/eyesMaskNew.bin
 odm/etc/camera/fb_model/eyesMaskNew.png
 odm/etc/camera/fb_model/faceLipsMaskPre.bin
-odm/etc/camera/fb_model/face_faceshadow_chinese.bin
-odm/etc/camera/fb_model/face_facewarp_chinese.bin
 odm/etc/camera/fb_model/face_retouch_chinese.bin
-odm/etc/camera/fb_model/face_retouch_chinese_aisoften.bin
 odm/etc/camera/fb_model/face_retouch_pre_chinese.bin
 odm/etc/camera/fb_model/mouthmask.png
 odm/etc/camera/fb_model/preSkinmask137.bin
@@ -894,7 +885,7 @@ odm/etc/camera/capture_neonportrait_params.json
 odm/etc/camera/distortionParams.bin
 odm/etc/camera/dualcal_golden.bin
 odm/etc/camera/eis_camera.vcfg
-odm/etc/camera/facesr_hd_composite_ff_4.0.13_qcom8635_ppl3_ocl_qualitybin.model
+odm/etc/camera/facesr_hd_composite_ff_4.0.13_qcom7675_ppl3_ocl_qualitybin.model
 odm/etc/camera/fb_default
 odm/etc/camera/fdc_cl.cache
 odm/etc/camera/fdc_lite_cl.cache
@@ -994,7 +985,6 @@ odm/lib64/libOGLManager.so
 odm/lib64/libOPAlgoCamAIBeautyBodyDetection.so
 odm/lib64/libOPAlgoCamAiBeautyEyeRetouchCn.so
 odm/lib64/libOPAlgoCamAiBeautyFaceRetouchCn.so
-odm/lib64/libOPAlgoCamAiUnifySkin.so
 odm/lib64/libOPAlgoCamFaceBeautyCap.so
 odm/lib64/libOPAlgoCamFaceRestore.so
 odm/lib64/libOPAlgoCamGroupClassifier.so
@@ -1102,7 +1092,6 @@ odm/lib64/libosie_stub.so
 odm/lib64/libpdCustomParamParser.so
 odm/lib64/libpngwrapper.so
 odm/lib64/libportrait_repair_ppl3_ocl.so
-odm/lib64/libportrait_repair_symbols_ppl3_ocl.so;FIX_SONAME
 odm/lib64/libqsh.utils.so
 odm/lib64/libremosaic_wrapper.so
 odm/lib64/libsat.so
@@ -1529,9 +1518,6 @@ vendor/firmware/tof8801_firmware.bin
 odm/firmware/fastchg/23609/bms_heating_config.txt
 odm/firmware/fastchg/23609/charging_hyper_mode_config.txt
 odm/firmware/fastchg/23609/charging_thermal_config_default.txt
-odm/firmware/fastchg/23622/bms_heating_config.txt
-odm/firmware/fastchg/23622/charging_hyper_mode_config.txt
-odm/firmware/fastchg/23622/charging_thermal_config_default.txt
 odm/firmware/fastchg/charge_time_config.csv
 odm/firmware/fastchg/smart_chg_config_table.txt
 
@@ -1756,7 +1742,7 @@ vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
 
 # Media
-odm/etc/media_cliffs_v0/video_system_specs.json
+odm/etc/media_cliffs_v1/video_system_specs.json
 
 # Neural networks
 odm/lib64/aiframe/cdsp/signed/libQnnHtpV73Skel.so;MODULE_SUFFIX=.signed.aiframe
